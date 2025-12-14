@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-vidya-light-pink text-vidya-gray-700 antialiased;
+  }
+}
