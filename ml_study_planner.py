@@ -4,7 +4,7 @@ import datetime
 import google.generativeai as genai
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyCUizkqkJcPZdg9UOGA0WZNeRiKvy_fypM"
+GEMINI_API_KEY = "YOUR_API_HERE"
 
 try:
     genai.configure(api_key=GEMINI_API_KEY)
@@ -133,4 +133,5 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
+
     main()
