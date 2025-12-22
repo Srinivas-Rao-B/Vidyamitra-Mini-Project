@@ -21,7 +21,7 @@ except AttributeError:
 
 # --- CONFIGURATION ---
 GEMINI_API_KEY = "YOUR_API_KEY" 
-YOUTUBE_API_KEY = "AIzaSyCfX7hRmEx1hSXRp5l7OcdkPBvslcc-wSo"
+YOUTUBE_API_KEY = "YOUR_YT_API_HERE"
 
 try:
     genai.configure(api_key=GEMINI_API_KEY)
@@ -122,3 +122,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
