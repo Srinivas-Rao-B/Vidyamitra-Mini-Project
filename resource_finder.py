@@ -20,7 +20,7 @@ except AttributeError:
 
 
 # --- CONFIGURATION ---
-GEMINI_API_KEY = "AIzaSyCUizkqkJcPZdg9UOGA0WZNeRiKvy_fypM" 
+GEMINI_API_KEY = "YOUR_API_KEY" 
 YOUTUBE_API_KEY = "AIzaSyCfX7hRmEx1hSXRp5l7OcdkPBvslcc-wSo"
 
 try:
@@ -120,4 +120,5 @@ def main():
         print("No relevant YouTube videos found.")
 
 if __name__ == "__main__":
+
     main()
